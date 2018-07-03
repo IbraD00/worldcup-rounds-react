@@ -37,8 +37,8 @@ class Test extends React.Component {
                 {item.matches.map((match, keyMatch) => {
                   console.log(match);
                   return (
-                    <div>
-                      <div key={keyMatch}>
+                    <div key={keyMatch}>
+                      <div>
                         {match.team1.name} - {match.team2.name} <br /> Score :{" "}
                         {match.score1} - {match.score2} <br />
                         {match.group} <br /> {match.stadium.name} <br />{" "}
